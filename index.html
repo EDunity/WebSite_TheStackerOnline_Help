@@ -10,18 +10,16 @@
 
 <style>
 
-@font-face {font-family: "font";src: url("font/font.ttf")format("truetype");}
-body {font-family: "font";}
-
 font {white-space: nowrap;}
 
-Image{border: double 3px #ff00ff;}
+.Image1{border: solid 3px white;}
+.Video1{border: solid 3px white;}
 
-  </style>
+</style>
 
 </head> 
 
-<body bgcolor="black"> 
+<body bgcolor="black" link="white" vlink="white" alink="gray"> 
 
 </body>
 
@@ -127,6 +125,7 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
+<a id="ゲームルールについて"></a>
 <br>
 <br>
 <br>
@@ -139,7 +138,7 @@ Image{border: double 3px #ff00ff;}
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <center>
-<font color="#00ef3c"size="7"id="ゲームルールについて">
+<font color="#00ef3c"size="7">
 [ TheStackerOnlineのルール ]<br>
 </font>
 </center>
@@ -209,70 +208,71 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
+<a id="技について"></a>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div style = "position:absolute; top:3500px; left:0px">
+<div style = "position:absolute; top:3510px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <div style = "position:absolute; top:6470px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <center>
-<font color="#0075ef"size="7"id="技について">
+<font color="#0075ef"size="7">
 [ 技について ]<br>
 </font>
 </center>
 <font color="#0075ef" size="6">
-　　（オールクリア）<br>
+　　（AllClear）<br>
 </font>
 <font color="white" size="5">
 　　　　フィールド上のキューブを全て消すたびに500スコアが得られます。<br>
 </font>
-<div style="position:absolute; top:3715px; left:107px; border: solid  3px white"> 
-<video src="Video/AllClear.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:3715px; left:107px"> 
+<video class="Video1" src="Video/AllClear.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#0075ef" size="6">
-　　（コンボ）<br>
+　　（Combo）<br>
 </font>
 <font color="white" size="5">
 　　　　1つのブロックを設置することでキューブを連鎖的に消去するたびに1000スコア得られます。(スコアが得られるのは2コンボからです。)<br>
 </font>
-<div style="position:absolute; top:4255px; left:107px; border: solid  3px white"> 
-<video src="Video/Combo.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:4255px; left:107px"> 
+<video class="Video1" src="Video/Combo.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#0075ef" size="6">
-　　（レン）<br>
+　　（Ren）<br>
 </font>
 <font color="white" size="5">
 　　　　ブロックを設置するたびにキューブを消去すると、その都度300スコア得られます。(スコアが得られるのは2レンからです。)<br>
 </font>
-<div style="position:absolute; top:4795px; left:107px; border: solid  3px white"> 
-<video src="Video/Ren.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:4795px; left:107px"> 
+<video class="Video1" src="Video/Ren.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#0075ef" size="6">
-　　（ダブル）<br>
+　　（Double）<br>
 </font>
 <font color="white" size="5">
 　　　　2色のキューブを同時に消去するたびに2000スコア得られます。<br>
 </font>
-<div style="position:absolute; top:5335px; left:107px; border: solid  3px white"> 
-<video src="Video/Double.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:5335px; left:107px"> 
+<video class="Video1" src="Video/Double.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#0075ef" size="6">
-　　（トリプル）<br>
+　　（Triple）<br>
 </font>
 <font color="white" size="5">
 　　　　3色のキューブを同時に消去するたびに3000スコア得られます。最高難易度の技です。<br>
 </font>
-<div style="position:absolute; top:5875px; left:107px; border: solid  3px white"> 
-<video src="Video/Triple.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:5875px; left:107px"> 
+<video class="Video1" src="Video/Triple.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br>
@@ -317,19 +317,20 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
+<a id="操作方法について"></a>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div style = "position:absolute; top:7300px; left:0px">
+<div style = "position:absolute; top:7320px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <div style = "position:absolute; top:8750px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <center>
-<font color="#ef0077"size="7"id="操作方法について">
+<font color="#ef0077"size="7">
 [ TheStackerOnlineの操作方法 ]<br>
 </font>
 </center>
@@ -420,19 +421,20 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
+<a id="ゲームモードについて"></a>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div style = "position:absolute; top:9570px; left:0px">
+<div style = "position:absolute; top:9590px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <div style = "position:absolute; top:12550px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <center>
-<font color="#00ef3c"size="7"id="ゲームモードについて">
+<font color="#00ef3c"size="7">
 [ TheStackerOnlineのゲームモード ]<br>
 </font>
 </center>
@@ -442,8 +444,8 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　ブロックの種類は47種類で落下速度は普通です。10000スコア毎にブロックの落下速度が速くなります。このゲームモードが基本です。<br>
 </font>
-<div style="position:absolute; top:9800px; left:107px; border: solid  3px white"> <!-- 540 -->
-<video src="Video/Normal.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:9800px; left:107px"> <!-- 540 -->
+<video class="Video1" src="Video/Normal.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#00ef3c" size="6">
@@ -452,8 +454,8 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　Normalのブロックの落下速度が速くなったバージョン。とても難易度が高く、初心者にはお勧めできません...。<br>
 </font>
-<div style="position:absolute; top:10340px; left:107px; border: solid  3px white"> 
-<video src="Video/HighSpeed.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:10340px; left:107px"> 
+<video class="Video1" src="Video/HighSpeed.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#00ef3c" size="6">
@@ -462,8 +464,8 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　Normalのブロックの種類が7種類になったバージョン。練習するならこのゲームモードがおすすめ！<br>
 </font>
-<div style="position:absolute; top:10880px; left:107px; border: solid  3px white"> 
-<video src="Video/Retro.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:10880px; left:107px"> 
+<video class="Video1" src="Video/Retro.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#00ef3c" size="6">
@@ -472,8 +474,8 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　ブロックの種類は47種類でAIと対戦の練習ができるゲームモードです。VsPlayerモードの練習に活用してください。<br>
 </font>
-<div style="position:absolute; top:11420px; left:107px; border: solid  3px white"> 
-<video src="Video/VsAI.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:11420px; left:107px"> 
+<video class="Video1" src="Video/VsAI.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color="#00ef3c" size="6">
@@ -482,8 +484,8 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　オンライン対戦です。VsAIモードの相手がプレイヤーになったバージョンです。<br>
 </font>
-<div style="position:absolute; top:11960px; left:107px; border: solid  3px white"> 
-<video src="Video/VsPlayer.mp4" width="800" height="450" controls></video>
+<div style="position:absolute; top:11960px; left:107px"> 
+<video class="Video1" src="Video/VsPlayer.mp4" width="800" height="450" controls></video>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br>
@@ -528,19 +530,20 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
+<a id="Optionsについて"></a>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div style = "position:absolute; top:13390px; left:0px">
+<div style = "position:absolute; top:13410px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <div style = "position:absolute; top:15310px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <center>
-<font color="#0075ef"size="7"id="Optionsについて">
+<font color="#0075ef"size="7">
 [ TheStackerOnlineのOptionsについて ]
 </font>
 </center>
@@ -552,11 +555,11 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　縦線を追加します。<br>
 </font>
-<div style="position:absolute; top:13640px; left:107px; border: solid  3px white"> <!-- 325 -->
-<img src="Image/NoOptions.png"width="400" height="225" >
+<div style="position:absolute; top:13640px; left:107px"> <!-- 325 -->
+<img class="Image1"src="Image/NoOptions.png"width="400" height="225" >
 </div>
-<div style="position:absolute; top:13640px; left:807px; border: solid  3px white"> 
-<img src="Image/VerticalFrame.png"width="400" height="225" >
+<div style="position:absolute; top:13640px; left:807px"> 
+<img class="Image1"src="Image/VerticalFrame.png"width="400" height="225" >
 </div>
 <br><br><br>
 <font color="white" size="7">
@@ -570,11 +573,11 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　横線を追加します。<br>
 </font>
-<div style="position:absolute; top:13965px; left:107px; border: solid  3px white"> 
-<img src="Image/NoOptions.png"width="400" height="225" >
+<div style="position:absolute; top:13965px; left:107px"> 
+<img class="Image1"src="Image/NoOptions.png"width="400" height="225" >
 </div>
-<div style="position:absolute; top:13965px; left:807px; border: solid  3px white"> 
-<img src="Image/HorizontalFrame.png"width="400" height="225" >
+<div style="position:absolute; top:13965px; left:807px"> 
+<img class="Image1"src="Image/HorizontalFrame.png"width="400" height="225" >
 </div>
 <br><br><br>
 <font color="white" size="7">
@@ -588,11 +591,11 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　次に出てくるブロックの出現位置と向き、色を表示します。<br>
 </font>
-<div style="position:absolute; top:14290px; left:107px; border: solid  3px white"> 
-<img src="Image/NoOptions.png"width="400" height="225" >
+<div style="position:absolute; top:14290px; left:107px"> 
+<img class="Image1"src="Image/NoOptions.png"width="400" height="225" >
 </div>
-<div style="position:absolute; top:14290px; left:807px; border: solid  3px white"> 
-<img src="Image/CoordinateBlock.png"width="400" height="225" >
+<div style="position:absolute; top:14290px; left:807px"> 
+<img class="Image1"src="Image/CoordinateBlock.png"width="400" height="225" >
 </div>
 <br><br><br>
 <font color="white" size="7">
@@ -606,11 +609,11 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　プレイヤーが動かしているブロックが落下して崩れた後の形を灰色で表示します。<br>
 </font>
-<div style="position:absolute; top:14615px; left:107px; border: solid  3px white"> 
-<img src="Image/NoOptions.png"width="400" height="225" >
+<div style="position:absolute; top:14615px; left:107px"> 
+<img class="Image1"src="Image/NoOptions.png"width="400" height="225" >
 </div>
-<div style="position:absolute; top:14615px; left:807px; border: solid  3px white"> 
-<img src="Image/GhostBlock.png"width="400" height="225" >
+<div style="position:absolute; top:14615px; left:807px"> 
+<img class="Image1"src="Image/GhostBlock.png"width="400" height="225" >
 </div>
 <br><br><br>
 <font color="white" size="7">
@@ -624,11 +627,11 @@ Image{border: double 3px #ff00ff;}
 <font color="white" size="5">
 　　　　カメラ操作を許可します。<br>
 </font>
-<div style="position:absolute; top:14940px; left:107px; border: solid  3px white"> 
-<img src="Image/NoOptions.png"width="400" height="225" >
+<div style="position:absolute; top:14940px; left:107px"> 
+<img class="Image1"src="Image/NoOptions.png"width="400" height="225" >
 </div>
-<div style="position:absolute; top:14940px; left:807px; border: solid  3px white"> 
-<img src="Image/CameraOperation.png"width="400" height="225" >
+<div style="position:absolute; top:14940px; left:807px"> 
+<img class="Image1" src="Image/CameraOperation.png"width="400" height="225" >
 </div>
 <br><br><br>
 <font color="white" size="7">
@@ -677,19 +680,20 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
+<a id="その他"></a>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div style = "position:absolute; top:16150px; left:0px">
+<div style = "position:absolute; top:16170px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
-<div style = "position:absolute; top:16500px; left:0px">
+<div style = "position:absolute; top:16570px; left:0px">
 <img src="Image/line.png"width="1905" height="3">
 </div>
 <center>
-<font color="#ef0077"size="7"id="その他">
+<font color="#ef0077"size="7">
 [ その他 ]
 </font>
 </center>
@@ -697,11 +701,12 @@ Image{border: double 3px #ff00ff;}
 　　　　何か質問があったらTwitterでDMください。<br>
 </font>
 <div style="position:absolute; top:16350px; left:107px; border: solid  3px white">
-<a href="https://www.youtube.com/channel/UCaOPoz7PtCJw2WwVkuavbSg?"><img src="Image/Youtube.png"width="64" height="	64" ></a>
+<a href="https://www.youtube.com/channel/UCaOPoz7PtCJw2WwVkuavbSg?"target=”_blank”><img src="Image/Youtube.png"width="64" height="	64" ></a>
 </div>
 <div style="position:absolute; top:16350px; left:207px; border: solid  3px white">
-<a href="https://twitter.com/UnityAddiction"><img src="Image/Twitter.png"width="64" height="	64" ></a>
+<a href="https://twitter.com/UnityAddiction"target=”_blank”><img src="Image/Twitter.png"width="64" height="	64" ></a>
 </div>
+<br><br><br><br><br>
 <br>
 <br>
 <center>
@@ -749,30 +754,4 @@ Image{border: double 3px #ff00ff;}
 <br>
 <br>
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <html>
