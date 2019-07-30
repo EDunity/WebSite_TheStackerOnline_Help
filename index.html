@@ -24,7 +24,7 @@ font{word-break: break-all; font-family:arial;}
 .ImageOthers     {border: solid white;border-width : 3px 3px 3px 3px;box-sizing: border-box;}
 .VideoSkills     {border: solid white;border-width : 3px 3px 3px 3px;box-sizing: border-box;}
 
-.BorderText{border: solid black;border-width : 0px 60px 0px 60px;box-sizing: border-box;}
+.BorderText1{border: solid black;border-width : 0px 60px 0px 60px;box-sizing: border-box;}
 
 .FontNormal{font-size:20px;}
 .FontTitle{font-size:50px;}
@@ -60,7 +60,7 @@ font{word-break: break-all; font-family:arial;}
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#ef0077">
@@ -83,7 +83,7 @@ font{word-break: break-all; font-family:arial;}
 これからも日々改良していく予定です。ゲームモードも技も増やしていきたいと強く思っています。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ 作者について ]
@@ -95,7 +95,7 @@ font{word-break: break-all; font-family:arial;}
 趣味で毎日Unityをいじくりまわしている高校3年生です。毎日Unityを触っているので「毎日Unity」という名前でやっています。モデリングと作曲が少し苦手です。でもゲーム制作はとても好きなので、頑張って苦手を克服したいです。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ お知らせ ]
@@ -104,10 +104,10 @@ font{word-break: break-all; font-family:arial;}
 <br>
 
 <font class="FontNormal" color ="white">
-現在、VsAIモードは調整中です。あと、法則性については説明するのに必要な画像が完成次第書きたいと思います。
+現在、VsAIモードは調整中です。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ 目次 ]
@@ -169,7 +169,7 @@ font{word-break: break-all; font-family:arial;}
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#00ef3c">
@@ -183,7 +183,7 @@ font{word-break: break-all; font-family:arial;}
 シングルプレイで遊ぶ時とマルチプレイで遊ぶ時とでやることが変わってくるので中止してください！
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ シングルプレイで遊ぶ時のルール ]
@@ -203,7 +203,7 @@ font{word-break: break-all; font-family:arial;}
 シングルプレイで遊べる３つのゲームモードでは、これらのルールでスコアを稼ぎ、最高スコアを競い合って遊ぶことができます。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ マルチプレイで遊ぶ時のルール ]
@@ -221,6 +221,7 @@ font{word-break: break-all; font-family:arial;}
 初めてこのゲームをプレイする人は、シングルプレイで練習してからマルチプレイで遊ぶことを勧めます。
 </font>
 
+<br><br><br><br><br>
 <br><br><br>
 
 <center>
@@ -241,7 +242,7 @@ font{word-break: break-all; font-family:arial;}
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#0075ef">
@@ -251,14 +252,141 @@ font{word-break: break-all; font-family:arial;}
 
 <br>
 
-<font class="FontNormal" color ="white">
-ゲームルールについてのところでも書きましたが、このゲームには最大で47種類のブロックが出現します。
-そしてこれらのブロックは、赤、緑または青の色がついた状態で落下してきます。
-キューブは、同じ色同士でしか消去することができません。
-だから「赤のブロックがすごい連続で落下してくるけど青のブロックが全く落ちてこない。」だったり「緑のブロックがばかり落ちてきて赤と青のブロックが少ししか落ちてこない。」
-ということが起きてしまうと、プレイヤー間で公平ではなくなってしまいます。つまり有利なプレイヤーと不利なプレイヤーが出てきてしまうということです。
-まとめると、赤、緑そして青のブロックがそれぞれ等しい割合で落下してこないといけないということです。
+<font class="FontSubTitle" color ="#0075ef">
+[ ブロックとキューブの違い ]
+</font>
 
+<br>
+
+<font class="FontNormal" color ="white">
+まず、法則性を説明するにあたって「ブロック」と「キューブ」の違いを説明します。<br>
+プレイヤーが操作出来るのがブロックで、操作できないのキューブです。
+ブロックはキューブの集まりであり、落下し終わると崩れてキューブになってしまいます。<br>
+下の画像を例に挙げると、赤いキューブの数が６個のブロックということです。
+</font>
+
+<br>
+
+<img class="ImageOptions"src="Image/Block.png"width="20%" height="auto">
+
+<br>
+
+<font class="FontNormal" color ="red">
+※このブロックは赤色ですが、ブロックの形と色は必ずしもこの画像通りだとは限りません。
+</font>
+
+<br><br><br>
+
+<font class="FontSubTitle" color ="#0075ef">
+[ ブロックの種類 ]
+</font>
+
+<br>
+
+<font class="FontNormal" color ="white">
+ゲームルールについてのところでも書きましたが、TheStackerOnlineでは、ゲームモードによっては最大で47種類のブロックが出現します。<br>
+下の画像がこのゲームに存在する全て(47種類)のブロックの一覧です。<br>
+一番キューブを含む数が少ないブロックのキューブの数は1個です。一番キューブを含む数が多いブロックのキューブの数は9個です。
+</font>
+
+<br>
+
+<img class="ImageOptions"src="Image/BlockList1.png"width="40%" height="auto">
+
+<br>
+
+<font class="FontNormal" color ="red">
+※全てのブロックに色がついていますが、ブロックの形と色は、必ずしもこの画像通りだとは限りません。
+</font>
+
+<br><br><br>
+
+<font class="FontSubTitle" color ="#0075ef">
+[ 公平じゃないの！？ ]
+</font>
+
+<br>
+
+<font class="FontNormal" color ="white">
+上の画像にあるブロックは、赤、緑または青の色がついた状態で落下してきます。
+そしてキューブは、同じ色同士でしか消去することができません。<br>
+だから「赤のブロックがすごい連続で落下してくるけど青のブロックが全く落ちてこない。」だったり「緑のブロックがばかり落ちてきて赤と青のブロックが少ししか落ちてこない。」などのことが起きてしまうと、プレイヤー間で公平ではなくなってしまいます。つまり有利なプレイヤーと不利なプレイヤーが出てきてしまうということです。<br>
+まとめると、赤、緑そして青のブロックがそれぞれ等しい割合で落下してこないとプレイヤー同士は公平ではなくなってしまうということです。
+</font>
+
+<br><br><br>
+
+<font class="FontSubTitle" color ="#0075ef">
+[ どうすれば公平になるの？ ]
+</font>
+
+<br>
+
+<font class="FontNormal" color ="white">
+上の画像内のすべてのブロックをキューブを含む数が少ない順でわかりやすく並べると下の画像のようになります。<br>
+色、形を考慮しないで、単純にキューブを含む数が異なるブロックを一個ずつ選んだとすると合計で9種類のブロックが選べると思います。<br>
+なぜここでキューブを含む数が異なる9種類のブロックを選んだかというと、キューブを含む数が同じブロックが連続で出現するのを避けるためです。<br>
+この9種類のブロックが含むキューブの数を全部をたすと、
+</font>
+
+<br>
+
+<font class="FontSubTitle" color ="white">
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
+</font>
+
+<br>
+
+<font class="FontNormal" color ="white">
+になります。ブロックの色の種類は赤、緑、青の3種類だから3で割ると、
+</font>
+
+<br>
+
+<font class="FontSubTitle" color ="white">
+45 ÷ 3 = 15
+</font>
+
+<br>
+
+<font class="FontNormal" color ="white">
+になります。つまりキューブを含む数が異なる9種類のブロックが落下する毎に、落下した9種類のブロックが含むキューブの数が赤、緑、青でそれぞれ合計で15個になるようになれば良いということです。<br>
+これが実現できればキューブを含む数が同じブロックが連続で落下してくることもなく、キューブの色の数もそれぞれ等しくなるわけだからプレイヤー間で公平になります。
+</font>
+
+<br>
+
+<img class="ImageOptions"src="Image/BlockList2.png"width="40%" height="auto">
+
+<br>
+
+<font class="FontNormal" color ="red">
+※全てのブロックに色がついていますが、ブロックの形と色は、必ずしもこの画像通りだとは限りません。
+</font>
+
+<br><br><br>
+
+<font class="FontSubTitle" color ="#0075ef">
+[ 例 ]
+</font>
+
+<br>
+
+<font class="FontNormal" color ="white">
+理解を深めてもらうためにここで一つ例を挙げたいと思います。<br>
+キューブを含む数が異なるブロックを9種類上の画像から選んで、下の画像のように色を付けたとします。<br>
+下の画像のように色がついていたとして赤、緑、青のキューブの数をそれぞれたしてみてください。<br>
+赤、緑、青、それぞれキューブの数の合計がそれぞれ15になりますよね？
+</font>
+
+<br>
+
+<img class="ImageOptions"src="Image/BlockList3.png"width="40%" height="auto">
+
+<br>
+
+<font class="FontNormal" color ="white">
+ブロックが9個落下してくる都度このようになっていれば、プレイヤー間で公平になります。
 </font>
 
 <br><br><br><br><br>
@@ -282,7 +410,7 @@ font{word-break: break-all; font-family:arial;}
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#ef0077">
@@ -296,7 +424,7 @@ font{word-break: break-all; font-family:arial;}
 単純なゲームに見えて意外とたくさんの技があります。知っているだけでも有利になれると思うので、覚えておきましょう！ここに書いてある技以外にまだ存在するかもしれません...。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ AllClear ]
@@ -313,7 +441,7 @@ font{word-break: break-all; font-family:arial;}
 <video class="VideoSkills"src="Video/AllClear.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ Combo ]
@@ -336,7 +464,7 @@ font{word-break: break-all; font-family:arial;}
 <video class="VideoSkills"src="Video/Combo.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ Ren ]
@@ -359,7 +487,7 @@ font{word-break: break-all; font-family:arial;}
 <video class="VideoSkills"src="Video/Ren.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ Double ]
@@ -376,7 +504,7 @@ font{word-break: break-all; font-family:arial;}
 <video class="VideoSkills"src="Video/Double.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef0077">
 [ Triple ]
@@ -392,8 +520,6 @@ font{word-break: break-all; font-family:arial;}
 
 <video class="VideoSkills"src="Video/Triple.mp4"width="30%" height="auto" controls>
 </Video>
-
-<br>
 
 <br><br><br><br><br>
 <br><br><br>
@@ -416,7 +542,7 @@ font{word-break: break-all; font-family:arial;}
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#00ef3c">
@@ -430,7 +556,7 @@ font{word-break: break-all; font-family:arial;}
 リメイクということで、ゲームモードを5つに増やしました。まだまだ増やすよ!(つもり)
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ Normal ]
@@ -447,7 +573,7 @@ font{word-break: break-all; font-family:arial;}
 <video class="VideoSkills"src="Video/Normal.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ HighSpeed ]
@@ -464,7 +590,7 @@ Normalのブロックの落下速度が速くなったバージョン。とて�
 <video class="VideoSkills"src="Video/HighSpeed.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ Retro ]
@@ -481,7 +607,7 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 <video class="VideoSkills"src="Video/Retro.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ VsAI ]
@@ -498,7 +624,7 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 <video class="VideoSkills"src="Video/VsAI.mp4"width="30%" height="auto" controls>
 </Video>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#00ef3c">
 [ VsPlayer ]
@@ -514,8 +640,6 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 
 <video class="VideoSkills"src="Video/VsPlayer.mp4"width="30%" height="auto" controls>
 </Video>
-
-<br>
 
 <br><br><br><br><br>
 <br><br><br>
@@ -538,7 +662,7 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#0075ef">
@@ -558,7 +682,7 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 ※このゲームではマウスは一切使用しません。キーボードだけです。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#0075ef">
 [ メニューでの操作方法 ]
@@ -568,11 +692,11 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 
 <font class="FontNormal" color ="white">
 ・W　　　　　　　　　　　　：　上移動<br>
-・S　　　　　　　　　　　 　：　下移動<br>
+・S　　　　　　　　　　　　：　下移動<br>
 ・Space/Enter　　　　　　　：　決定
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#0075ef">
 [ シングルプレイでの操作方法 ]
@@ -582,18 +706,20 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 
 <font class="FontNormal" color ="white">
 ・W　　　　　　　　　　　　：　ブロックのホールド<br>
-・D　　　　　　　　　　　　&thinsp;：　ブロックの右移動(長押しで連続移動)<br>
-・A 　　　　　　　　　　　　：　ブロックの左移動(長押しで連続移動)<br>
-・E　　　　　　　　　　 　　：　ブロックの右回転<br>
-・Q　　　　　　　　　　　　&thinsp;：　ブロックの左回転<br>
-・S　　　　　　　　　　　　 ：　ブロックの落下<br>
+・D　　　　　　　　　　　　：　ブロックの右移動(長押しで連続移動)<br>
+・A　　　　　　　　　　　　：　ブロックの左移動(長押しで連続移動)<br>
+・E　　　　　　　　　　　　：　ブロックの右回転<br>
+・Q　　　　　　　　　　　　：　ブロックの左回転<br>
+・S　　　　　　　　　　　　：　ブロックの落下<br>
 ・Space/Enter　　　　　　　：　ポーズ<br>
 ・↑　　　　　　　　　　　　：　カメラの上移動<br>
 ・↓　　　　　　　　　　　　：　カメラの下移動<br>
 ・→　　　　　　　　　　　　：　カメラの右移動<br>
 ・←　　　　　　　　　　　　：　カメラの左移動<br>
-・R　　　　　　　　　　　 　：　カメラのを初期位置に戻す<br>
+・R　　　　　　　　　　　　：　カメラのを初期位置に戻す
 </font>
+
+<br><br><br>
 
 <font class="FontSubTitle" color ="#0075ef">
 [ マルチプレイでの操作方法 ]
@@ -603,17 +729,17 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 
 <font class="FontNormal" color ="white">
 ・W　　　　　　　　　　　　：　ブロックのホールド<br>
-・D　　　　　　　　　　　　&thinsp;：　ブロックの右移動(長押しで連続移動)<br>
-・A　　　　　　　　　　　　 ：　ブロックの左移動(長押しで連続移動)<br>
-・E　　　　　　　　　　　　 ：　ブロックの右回転<br>
-・Q　　　　　　　　　　　　&thinsp;：　ブロックの左回転<br>
-・S　　　　　　　　　　　 　：　ブロックの落下<br>
-・F　　　　　　　　　　　 　：　相手プレイヤーに攻撃<br>
+・D　　　　　　　　　　　　：　ブロックの右移動(長押しで連続移動)<br>
+・A　　　　　　　　　　　　：　ブロックの左移動(長押しで連続移動)<br>
+・E　　　　　　　　　　　　：　ブロックの右回転<br>
+・Q　　　　　　　　　　　　：　ブロックの左回転<br>
+・S　　　　　　　　　　　　：　ブロックの落下<br>
+・F　　　　　　　　　　　　：　相手プレイヤーに攻撃<br>
 ・↑　　　　　　　　　　　　：　カメラの上移動<br>
 ・↓　　　　　　　　　　　　：　カメラの下移動<br>
 ・→　　　　　　　　　　　　：　カメラの右移動<br>
 ・←　　　　　　　　　　　　：　カメラの左移動<br>
-・R　　　　　　　　　　　　 ：　カメラのを初期位置に戻す<br>
+・R　　　　　　　　　　　　：　カメラのを初期位置に戻す<br>
 </font>
 
 <br><br><br><br><br>
@@ -637,7 +763,7 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#ef0077">
@@ -651,7 +777,7 @@ Normalのブロックの種類が7種類になったバージョン。技も組�
 Optionsで自分好みの設定にできます。毎日Unity(このゲームの制作者)はGhostBlockが気に入っています。
 </font>
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef007">
 [ VerticalFrame ]
@@ -671,7 +797,7 @@ Optionsで自分好みの設定にできます。毎日Unity(このゲームの�
 </font>	
 <img class="ImageOptions"src="Image/VerticalFrame.png"width="30%" height="auto" align="middle">
 
-<br>
+<br><br><br>
 	
 <font class="FontSubTitle" color ="#ef007">
 [ HorizontalFrame ]
@@ -691,7 +817,7 @@ Optionsで自分好みの設定にできます。毎日Unity(このゲームの�
 </font>	
 <img class="ImageOptions"src="Image/HorizontalFrame.png"width="30%" height="auto" align="middle">
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef007">
 [ CoordinateBlock ]
@@ -711,7 +837,7 @@ Optionsで自分好みの設定にできます。毎日Unity(このゲームの�
 </font>	
 <img class="ImageOptions"src="Image/CoordinateBlock.png"width="30%" height="auto" align="middle">
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef007">
 [ GhostBlock ]
@@ -731,7 +857,7 @@ Optionsで自分好みの設定にできます。毎日Unity(このゲームの�
 </font>	
 <img class="ImageOptions"src="Image/GhostBlock.png"width="30%" height="auto" align="middle">
 
-<br>
+<br><br><br>
 
 <font class="FontSubTitle" color ="#ef007">
 [ CameraOperation ]
@@ -774,7 +900,7 @@ Optionsで自分好みの設定にできます。毎日Unity(このゲームの�
 
 <br>
 
-<div class="BorderText">
+<div class="BorderText1">
 
 <center>
 <font class="FontTitle" color ="#00ef3c">
